@@ -219,6 +219,182 @@ main {
   margin-top: 32px;
 }
 
+.resume-page main {
+  overflow: visible;
+}
+
+.resume-shell {
+  width: min(1040px, calc(100% - 40px));
+  padding: clamp(36px, 6vw, 74px) 0 42px;
+  margin-inline: auto;
+}
+
+.resume-command {
+  width: fit-content;
+  max-width: 100%;
+  padding: 9px 12px;
+  overflow-wrap: anywhere;
+  color: var(--cyan);
+  background: rgba(5, 12, 20, 0.62);
+  border: 1px solid rgba(123, 231, 255, 0.22);
+  border-radius: 6px;
+  box-shadow: inset 0 0 28px rgba(123, 231, 255, 0.04);
+  font-family: var(--mono);
+  font-size: 0.82rem;
+}
+
+.resume-command span {
+  color: var(--green);
+  font-weight: 900;
+}
+
+.resume-page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.resume-document {
+  position: relative;
+  margin-top: 28px;
+  padding: clamp(26px, 5vw, 56px);
+  background: linear-gradient(135deg, rgba(125, 211, 252, 0.1), rgba(37, 99, 235, 0.08)),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.018) 0 1px, transparent 1px 18px), rgba(7, 15, 25, 0.96);
+  border: 1px solid var(--line-hot);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.resume-document::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 72px;
+  height: 72px;
+  pointer-events: none;
+  content: "";
+  border-top: 1px solid var(--green);
+  border-right: 1px solid var(--green);
+  opacity: 0.45;
+}
+
+.resume-document h1,
+.resume-document h2,
+.resume-document h3,
+.resume-document p,
+.resume-document ul {
+  max-width: 840px;
+}
+
+.resume-document h1 {
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(2.4rem, 7vw, 5rem);
+  line-height: 0.96;
+  letter-spacing: 0;
+}
+
+.resume-document h1 + p {
+  margin: 18px 0 0;
+  color: var(--green);
+  font-family: var(--mono);
+  font-size: clamp(0.9rem, 2vw, 1.05rem);
+  font-weight: 900;
+  line-height: 1.45;
+}
+
+.resume-document h1 + p + p {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.resume-document h2 {
+  margin: 46px 0 16px;
+  padding-top: 22px;
+  color: var(--text);
+  border-top: 1px solid var(--line-hot);
+  font-size: clamp(1.55rem, 3.2vw, 2.35rem);
+  line-height: 1.04;
+  letter-spacing: 0;
+}
+
+.resume-document h2::before {
+  color: var(--gold);
+  content: "## ";
+  font-family: var(--mono);
+  font-size: 0.72em;
+}
+
+.resume-document h3 {
+  margin: 30px 0 10px;
+  color: var(--cyan);
+  font-family: var(--mono);
+  font-size: clamp(1.08rem, 2vw, 1.32rem);
+  letter-spacing: 0;
+}
+
+.resume-document h3::before {
+  color: var(--green);
+  content: "node:// ";
+  font-size: 0.75em;
+}
+
+.resume-document p,
+.resume-document li {
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.62;
+}
+
+.resume-document p {
+  margin: 12px 0;
+}
+
+.resume-document ul {
+  display: grid;
+  gap: 8px;
+  padding-left: 22px;
+  margin: 14px 0;
+}
+
+.resume-document li::marker {
+  color: var(--green);
+}
+
+.resume-document a {
+  color: var(--green);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.resume-document a:hover {
+  color: var(--cyan);
+}
+
+.resume-document strong {
+  color: var(--text);
+}
+
+.resume-document em {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.resume-document p:has(> em:first-child) {
+  max-width: 900px;
+  padding: 12px 14px;
+  margin-top: 16px;
+  color: var(--muted);
+  background: rgba(248, 243, 231, 0.035);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 0.93rem;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -711,6 +887,15 @@ main {
   .signal-grid {
     grid-template-columns: 1fr;
   }
+
+  .resume-shell {
+    width: min(100% - 28px, 1040px);
+  }
+
+  .resume-document h3::before {
+    display: block;
+    margin-bottom: 4px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -730,5 +915,64 @@ main {
   .button:hover,
   .text-link:hover {
     transform: none;
+  }
+}
+
+@media print {
+  .resume-page {
+    background: #ffffff;
+    color: #111827;
+  }
+
+  .resume-page::before,
+  .resume-page::after,
+  .resume-page .site-header,
+  .resume-page .site-footer,
+  .resume-command,
+  .resume-page-actions {
+    display: none;
+  }
+
+  .resume-shell {
+    width: auto;
+    padding: 0;
+  }
+
+  .resume-document {
+    padding: 0;
+    margin: 0;
+    color: #1f2328;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .resume-document::after {
+    display: none;
+  }
+
+  .resume-document h1,
+  .resume-document h2,
+  .resume-document h3,
+  .resume-document p,
+  .resume-document li,
+  .resume-document strong,
+  .resume-document em {
+    color: #111827;
+  }
+
+  .resume-document h2 {
+    border-top-color: #9ca3af;
+  }
+
+  .resume-document h2::before,
+  .resume-document h3::before {
+    content: "";
+  }
+
+  .resume-document p:has(> em:first-child) {
+    padding: 0;
+    background: transparent;
+    border: 0;
   }
 }
