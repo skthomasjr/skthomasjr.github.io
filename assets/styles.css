@@ -322,13 +322,6 @@ main {
   letter-spacing: 0;
 }
 
-.resume-document h2::before {
-  color: var(--gold);
-  content: "## ";
-  font-family: var(--mono);
-  font-size: 0.72em;
-}
-
 .resume-document h3 {
   margin: 30px 0 10px;
   padding-left: 12px;
@@ -960,10 +953,6 @@ main {
   .resume-document h3 {
     padding-left: 0;
     border-left: 0;
-  }
-
-  .resume-document h2::before {
-    content: "";
   }
 
   .resume-document p:has(> em:first-child) {
