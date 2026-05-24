@@ -1,0 +1,139 @@
+Scott K. Thomas, Jr.
+
+Platform Engineering // Kubernetes // SRE // Cloud Infrastructure // AI & Agentic Systems
+
+Castle Rock, Colorado 80104
++1 303 421 3320 | Email <contact@scott-thomas.io> | LinkedIn <https://linkedin.com/in/skthomasjr> | GitHub <https://github.com/skthomasjr> | GitHub (Witwave) <https://github.com/witwave-ai/witwave>
+
+Summary
+
+Infrastructure and platform engineering leader with deep expertise in Kubernetes, GitOps, cloud automation, SRE, and AI-augmented operations across GCP and AWS. I build resilient, observable, and cost-efficient platforms by combining Terraform-driven delivery, operational discipline, and modern automation tooling. I also build and maintain Witwave, an unpaid open-source autonomous-agent platform, to stay close to emerging patterns in AI infrastructure, agent orchestration, and human-governed automation.
+
+Employment
+
+Prometheum
+
+Principal Infrastructure Engineer (Nov 2025 - Present)
+
+Prometheum is a digital asset platform bridging traditional financial market infrastructure with blockchain-based securities. As Principal Infrastructure Engineer, I lead the infrastructure team with end-to-end ownership of cloud operations, Kubernetes clusters, security, DevOps, SRE, and production operations, covering ground normally distributed across several teams. I also drive platform engineering efforts to establish GitOps workflows and self-service tooling that allow engineers to own their own release cycles and deployments.
+
+I am helping shape AI adoption as an infrastructure and delivery capability, from making AI tools practical for daily infra work to launching a company-wide pilot for development and QA. The work is evolving toward secure, observable, and governed AI-assisted workflows that can support engineering teams without bypassing operational controls.
+
+Technologies: AWS, EKS, Terraform, Terragrunt, ArgoCD, Atlantis, external-dns, external-secrets, SOPS, Cloudflare Zero Trust, Datadog, Datadog Operator, Bitcoin (bitcoind), Geth, Reth, Lighthouse, n8n, Claude Code, Cursor, MCP, Python
+
+Elixir Network (1 year, 4 months)
+
+Head of DevOps (Jul 2024 - Nov 2025)
+
+As Head of DevOps for a 10-person engineering team, I owned the GCP/Kubernetes platform as administrator, SRE, and platform steward. I introduced Infrastructure as Code to replace manual console-driven provisioning, consolidated AWS/GCP managed services and EC2/VM workloads into a Kubernetes-first architecture, and established Terraform and FluxCD-based GitOps workflows for repeatable, auditable delivery. Those changes, paired with scale-from-zero automation and ephemeral dev environments, cut monthly cloud spend by $50K.
+
+I built Apache Airflow as the automation backbone for alerts, reporting, and infrastructure jobs, and improved the inner development loop with Ambassador Traffic Manager and Telepresence for live cluster debugging. I also embedded AI tooling with Cursor and MCP servers to surface infrastructure, Kubernetes, and code context during investigations.
+
+I tightened security and blockchain operations with Cloudflare Zero Trust, GCP Secrets Manager, and centralized transaction signing through GCP Cloud KMS. I also operated observability and data platforms spanning Grafana Cloud, Prometheus, Loki, Tempo, PagerDuty, PostgreSQL, Redis Cluster, and Kafka/Redpanda, including a custom metrics exporter that primes scale-from-zero services automatically.
+
+Technologies: GCP, AWS, Terraform, GKE, EKS, Kubernetes, external-secrets, Flux, Goldilocks, Keda, Keel, kube-state-metrics, Reloader, Velero, Grafana Cloud, Grafana, Grafana Alerting, Grafana Alloy, Loki, PagerDuty, Prometheus, Papertrail, Apache Airflow, Cloudflare Tunneling, Cloudflare Zero Trust, Redpanda, Kafka, Redis Cluster, PostgreSQL, Kafka Mirror Maker, Cursor, GitHub, k9s, Lens, MCP, Node.js, Python, Telepresence, Ambassador Traffic Manager
+
+Charter Communications (4 years, 8 months)
+
+-   Director, Digital Platforms (Feb 2023 - Jul 2024)
+-   Principal DevOps Engineer (Jul 2021 - Feb 2023)
+-   DevOps Consultant (Nov 2019 - Jul 2021)
+
+At Charter, I led development enablement and digital platform engineering for an organization supporting more than 6000 developers. My team operated core developer platforms including GitLab, Keycloak, Rancher, Terraform Cloud, and Cluster API, while advancing Kubernetes-native provisioning and governance with Crossplane, Flux, ArgoCD, and Kyverno.
+
+We managed platform infrastructure across more than 150 AWS accounts and 250 Kubernetes clusters spanning EKS, KOPS, RKE, AWS native, and bare metal environments. I also supported one of the largest self-managed GitLab implementations globally, including highly available GitLab Runner infrastructure for enterprise-scale CI/CD.
+
+Technologies: AWS, Crossplane, Flux, ArgoCD, GitLab, GitLab Environment Toolkit, GitLab HA Scaling Runner, Keycloak, Rancher, Cluster API + CAPA, AWS Load-Balancer Controller, cert-manager, CrowdStrike Falcon *, Splunk Connect, Datadog Agent, Datadog Operator, external-dns, external-secrets, Kyverno, Velero
+
+Simba Chain (1 year)
+
+Director of DevOps (July 2021 - July 2022)
+
+As Director of DevOps at Simba Chain, I led cloud infrastructure, Kubernetes, observability, and delivery practices for a blockchain platform organization. I introduced enterprise DevOps practices across Azure, Datadog, Terraform Cloud, and GitOps workflows with Flux and Helm.
+
+I helped containerize blockchain technologies including Ethereum, Avalanche, and Hyperledger Fabric, using Kubernetes to improve deployment consistency and operational scalability. I also expanded Infrastructure as Code practices with Terraform and Terraform Cloud to make infrastructure changes more repeatable and auditable.
+
+Technologies: Azure, Kubernetes, Flux, Datadog, Helm, Terraform, Terraform Cloud, Bash, Solidity, GitLab, Keycloak, cert-manager, Datadog Agent, external-dns, external-secrets
+
+American Estate & Trust (1 year, 6 months)
+
+-   Senior Solution Architect (Oct 2019 - Mar 2020)
+-   DevOps Consultant (Sep 2018 - Oct 2019)
+
+At AET, I led migration of a small but complex on-premises environment to AWS and helped consolidate acquired systems spread across multiple cloud providers. I also helped architect and build the organization’s AWS EKS-based cloud platform.
+
+I supported software development through common tooling, baseline API implementations, engineering practices, and Agile delivery, while also providing blockchain and cryptocurrency consulting and development support.
+
+Technologies: AWS, Azure, Kubernetes, Knative, OpenFaaS, Flux, Helm, Tekton Pipelines, CircleCI, Go, Viper, Cobra, OIDC, Okta, Auth0, Bash, JSON API, Solidity, Truffle, FileMaker Server
+
+Neudesic (6 months)
+
+Senior Consultant II (Jan 2018 - Jul 2018)
+
+At Neudesic, I worked as a full-stack and DevOps consultant focused on web UI technologies, cloud-first application design, enterprise architecture patterns, and practical DevOps implementation.
+
+Technologies: AWS, React.js, GraphQL, Node.js, Express, Docker, Okta
+
+TalentWave (8 months)
+
+Lead Software and DevOps Engineer (Jan 2017 - Aug 2017)
+
+At TalentWave, I led modernization of the organization’s software architecture, delivery practices, and development infrastructure, reporting directly to the CTO. I introduced CI/CD with Bitbucket Pipelines, Docker Cloud, and AWS, built a baseline cloud-native application architecture using REST APIs, microservices, and modern web UI patterns, and trained technical and non-technical staff on Agile and Scrum practices.
+
+Technologies: AWS, .NET Core, ASP.NET Core, ASP.NET Core MVC, REST, Microservices, CQRS, JSON API, Angular, Bootstrap, CI/CD, Bitbucket, Pipelines, Docker Cloud (Swarm), Agile, Scrum
+
+Cerebral Syntax (11 years)
+
+Principal Technology Consultant (Jan 2007 - Jan 2018)
+
+Application architect, technical leader and full stack software engineer with experience on web and Windows platforms for 50+ client engagements.
+
+Technologies: AWS, Azure, Kubernetes, .NET Core, Node.js, Angular, React.js, JSON API, GraphQL, ADO.NET, Cosmos DB, DynamoDB, SQL Server
+
+IDIS Incorporated (14 years, 7 months)
+
+Principal Software Engineer (Jun 1992 - Jan 2007)
+
+Worked as an independent contract developer using numerous technologies and for a plethora of industries. Technological focus was on the Microsoft-stack on both web and native Windows platforms.
+
+Technologies: .NET Framework, C#, VB.NET, ADO.NET, Microsoft SQL Server, Visual Basic, Borland Delphi, ColdFusion
+
+Open Source & Independent Projects
+
+Witwave
+
+Founder and Maintainer (Mar 2026 - Present)
+
+Website <https://witwave.ai> | GitHub <https://github.com/witwave-ai/witwave>
+
+Unpaid independent open-source side project; built during evenings and weekends.
+
+Designed and built Witwave, a cloud-native autonomous agent framework for AI agent teams. The project treats AI agents as managed software participants with durable identity, backend choice, schedules, triggers, memory, observability, MCP tool access, shared workspaces, and human-governed escalation.
+
+The platform includes a Kubernetes operator, Helm charts, the ww CLI, backend agents for Claude, Codex, Gemini, and Echo, shared MCP tools for Kubernetes, Helm, and Prometheus, a dashboard, release automation, and GitHub Container Registry publishing. It is also an experiment in AI-operated open source: humans set direction and own risk while AI agents perform day-to-day implementation, documentation, releases, and maintenance under review.
+
+Authored four project white papers covering agentic engineering teams, agentic AI adoption phases, autonomy boundaries, and tool boundaries for containerized agents.
+
+Technologies: Kubernetes, Go, Operator SDK, Helm, Docker, GitHub Actions, GHCR, Python, Starlette, A2A, MCP, Prometheus, OpenTelemetry, Claude, OpenAI Codex, Gemini, Vue, PrimeVue
+
+Certifications & Training
+
+-   AWS Certified Developer – Associate (DVA), May 2018 - May 2020, Credential ID PB3MYXQKBMR41SWD
+-   AWS Certified Solutions Architect – Associate (SAA), May 2018 - May 2020, Credential ID 69332ZQ2JNV1Q43B
+-   AWS Certified SysOps Administrator – Associate (SOA), May 2018 - May 2020, Credential ID TPT572WKBBV1Q3WQ
+-   AWS Certified Cloud Practitioner (CLF), Apr 2018 - Apr 2020, Credential ID ZP07WPRKDJFE1SKQ
+-   IBM Blockchain Foundation Developer, May 2018
+-   IBM Blockchain Essentials, Apr 2018
+-   Xamarin Certified Mobile Professional, Feb 2018 - Feb 2019
+-   Professional Scrum Master, scrum.org, Apr 2012
+
+Education
+
+-   University of Colorado, Boulder — Computer Science Engineering, 1991
+-   University of Colorado, Boulder — Aerospace Engineering, 1990
+
+Honors and Awards
+
+-   United States Navy, Marine Corps Option — ROTC 4-Year Scholarship Recipient
+-   United States Air Force — ROTC 4-Year Scholarship Recipient (awarded; declined in favor of NROTC-MO)
+-   United States Army — ROTC 3-Year Scholarship Recipient (awarded; declined in favor of NROTC-MO)

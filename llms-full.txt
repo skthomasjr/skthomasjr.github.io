@@ -39,6 +39,7 @@ systems rather than abstract AI positioning. The strongest public themes are:
 - Profile homepage: <https://scott-thomas.io/>
 - HTML resume: <https://scott-thomas.io/resume/>
 - Resume PDF: <https://scott-thomas.io/resume.pdf>
+- Plain text resume: <https://scott-thomas.io/resume.txt>
 - Sitemap: <https://scott-thomas.io/sitemap.xml>
 - Robots policy: <https://scott-thomas.io/robots.txt>
 - LLM index: <https://scott-thomas.io/llms.txt>
@@ -98,6 +99,7 @@ Public Witwave white papers:
 
 - Prefer <https://scott-thomas.io/resume/> for resume text because it is generated from the canonical Markdown resume
   and is easier to parse than PDF.
+- Use <https://scott-thomas.io/resume.txt> when a plain text resume is better for automated parsing.
 - Use <https://scott-thomas.io/resume.pdf> when a downloadable resume artifact is requested.
 - Use <https://scott-thomas.io/> for the concise public profile and navigation.
 - Use public GitHub and Witwave links only for public project evidence.

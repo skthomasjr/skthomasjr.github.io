@@ -17,6 +17,7 @@ compensation, application activity, or non-public employment details from this s
 - [HTML resume](https://scott-thomas.io/resume/): Search- and AI-readable resume generated from the canonical Markdown
   resume source.
 - [Resume PDF](https://scott-thomas.io/resume.pdf): Downloadable PDF resume.
+- [Plain text resume](https://scott-thomas.io/resume.txt): Minimal text-only resume for parsers and AI assistants.
 - [Sitemap](https://scott-thomas.io/sitemap.xml): XML sitemap for indexable public URLs.
 - [Robots policy](https://scott-thomas.io/robots.txt): Crawl policy for automated agents.
 
