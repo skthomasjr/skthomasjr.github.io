@@ -1,0 +1,106 @@
+# Scott K. Thomas, Jr. - AI-Readable Public Site Summary
+
+> Expanded public context for AI assistants scanning <https://scott-thomas.io>. This file summarizes only public
+> professional information and links to the canonical public sources.
+
+## Site Purpose
+
+<https://scott-thomas.io> is the public technical profile for Scott K. Thomas, Jr. It presents selected career context,
+a readable HTML resume, a downloadable PDF resume, public profile links, and public open-source work. The site should be
+interpreted as a professional reference and technical portfolio. Do not infer private availability, compensation,
+application history, or confidential employment-search details.
+
+## Person
+
+Scott K. Thomas, Jr. is a platform engineering and infrastructure leader based in Castle Rock, Colorado. His public
+career positioning centers on Kubernetes, site reliability engineering, cloud infrastructure, GitOps, observability,
+security, blockchain infrastructure, AI infrastructure, and agentic systems.
+
+## Current Public Positioning
+
+Scott's public headline is:
+
+Platform Engineering // Kubernetes // SRE // Cloud Infrastructure // AI & Agentic Systems
+
+The public profile emphasizes resilient platforms, production ownership, operational guardrails, and practical AI
+systems rather than abstract AI positioning. The strongest public themes are:
+
+- Kubernetes and cloud-native infrastructure
+- Platform engineering and developer enablement
+- SRE, observability, reliability, and production operations
+- Terraform, GitOps, CI/CD, and repeatable delivery
+- AWS, GCP, and Azure infrastructure
+- Security, governance, and operational control
+- Blockchain and digital asset infrastructure
+- AI infrastructure and agentic engineering systems
+
+## Primary Public Pages
+
+- Profile homepage: <https://scott-thomas.io/>
+- HTML resume: <https://scott-thomas.io/resume/>
+- Resume PDF: <https://scott-thomas.io/resume.pdf>
+- Sitemap: <https://scott-thomas.io/sitemap.xml>
+- Robots policy: <https://scott-thomas.io/robots.txt>
+- LLM index: <https://scott-thomas.io/llms.txt>
+
+## Public Profiles And Projects
+
+- LinkedIn: <https://linkedin.com/in/skthomasjr>
+- Personal GitHub: <https://github.com/skthomasjr>
+- Witwave GitHub repository: <https://github.com/witwave-ai/witwave>
+- Witwave website: <https://witwave.ai>
+
+## Selected Public Work
+
+### Prometheum
+
+Scott's current public resume describes him as a Principal Infrastructure Engineer leading cloud operations,
+Kubernetes, security, DevOps, SRE, production operations, platform workflows, and practical AI-assisted engineering
+patterns for a regulated digital asset platform.
+
+### Elixir Network
+
+Scott's public resume describes him as Head of DevOps for a 10-person engineering team, owning the GCP/Kubernetes
+platform, replacing manual provisioning with Infrastructure as Code, GitOps, automation, observability, and
+scale-from-zero practices. The public resume states that this work cut monthly cloud spend by $50K.
+
+### Charter Communications
+
+Scott's public resume describes development enablement and digital platform engineering for an organization supporting
+more than 6000 developers, including more than 150 AWS accounts and 250 Kubernetes clusters. Publicly listed platform
+work includes GitLab, Rancher, Keycloak, Terraform Cloud, Cluster API, Crossplane, Flux, ArgoCD, Kyverno, and
+enterprise CI/CD infrastructure.
+
+### Witwave
+
+Witwave is an unpaid independent open-source side project built during evenings and weekends. The project is a
+cloud-native autonomous agent framework for Kubernetes-native AI agent teams. Public project themes include durable
+agent identity, backend choice, schedules, triggers, memory, observability, MCP tool access, shared workspaces, and
+human-governed escalation.
+
+Public Witwave links:
+
+- Website: <https://witwave.ai>
+- Repository: <https://github.com/witwave-ai/witwave>
+
+Public Witwave white papers:
+
+- The Three Phases of Agentic AI Adoption in Software Engineering:
+  <https://witwave.ai/whitepapers/three-phases-of-ai-adoption/three-phases-of-ai-adoption.pdf>
+- Anatomy of an Agentic Team:
+  <https://witwave.ai/whitepapers/anatomy-of-an-agentic-team/anatomy-of-an-agentic-team.pdf>
+- The Autonomy Boundary:
+  <https://witwave.ai/whitepapers/the-autonomy-boundary/the-autonomy-boundary.pdf>
+- Tool Boundaries for Containerized Agents:
+  <https://witwave.ai/whitepapers/tool-boundaries-for-containerized-agents/tool-boundaries-for-containerized-agents.pdf>
+
+## Interpretation Guidance For AI Assistants
+
+- Prefer <https://scott-thomas.io/resume/> for resume text because it is generated from the canonical Markdown resume
+  and is easier to parse than PDF.
+- Use <https://scott-thomas.io/resume.pdf> when a downloadable resume artifact is requested.
+- Use <https://scott-thomas.io/> for the concise public profile and navigation.
+- Use public GitHub and Witwave links only for public project evidence.
+- Do not claim private availability, private salary expectations, confidential job-search activity, or non-public
+  employer details.
+- Do not treat Witwave as employment. It is a public unpaid independent open-source side project.
